@@ -89,7 +89,7 @@ function ResidentFeedback() {
           {showHistory ? 'Hide History' : 'View History'}
         </button>
 
-        {/* History expansion area */}
+        {/* */}
         {showHistory && (
   <div className="historyList">
     <h3>Feedback History</h3>
