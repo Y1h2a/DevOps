@@ -124,7 +124,7 @@ function ResidentFeedback() {
 
     </div>
 
-      {/* Notification Area */}
+      {/*  */}
       <div className="notificationContainer">
         <h2>Notifications</h2>
         {notifications.length === 0 ? (
