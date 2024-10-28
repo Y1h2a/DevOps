@@ -17,6 +17,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '8'
+          distribution: 'temurin'  # 使用 temurin 分发的 JDK
 
       - name: Build with Maven
         run: mvn clean install
